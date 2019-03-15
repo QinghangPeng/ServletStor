@@ -12,9 +12,9 @@ import com.nstc.fmis.model2.InterAccountSeq;
  *
  * <p>Company: openSource</p>
  *
- * @author ×÷Õß penghao
+ * @author ï¿½ï¿½ï¿½ï¿½ penghao
  * 
- * @since£º2017-9-27 ÏÂÎç06:01:32
+ * @sinceï¿½ï¿½2017-9-27 ï¿½ï¿½ï¿½ï¿½06:01:32
  * 
  */
 public class Test {
@@ -28,6 +28,7 @@ public class Test {
             InterAccount intAccount = erpServicePortTypeProxy.queryInterAccount(inteSeq);
             System.out.println("ceshi:"+intAccount.getACCOUNT_NO()+","+intAccount.getAmount()+","+intAccount.getBOOK_DATE()
                     +","+intAccount.getRET_CODE().toString());
+            System.out.println("test.........");
         } catch (RemoteException e) {
             e.printStackTrace();
         }
